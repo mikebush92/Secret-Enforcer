@@ -1,7 +1,7 @@
 @echo off
 if not exist "users" mkdir  "users"
 echo "Hello World">users:test.txt
-echo menu.txt
+type menu.txt
 pause
 cls
 echo Press 1 to view in notepad, 2 to extract.
