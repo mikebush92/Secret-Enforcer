@@ -2,7 +2,7 @@
 if not exist "users" mkdir  "users"
 echo "Hello World">users:test.txt
 type menu.txt
-pause
+pause <null
 cls
 echo Press 1 to view in notepad, 2 to extract.
 set /p ans="Enter Number:"
@@ -13,7 +13,7 @@ notepad users:test.txt
 exit
 
 :2
-expand users
+expand users:test.txt
 exit
 
 :exit
